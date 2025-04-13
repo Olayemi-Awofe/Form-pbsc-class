@@ -1,0 +1,45 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.7.0/schema.json",
+  "name": "0f4aefdfe3bea749ee7b",
+  "position": {
+    "x": 111.83507112755476,
+    "y": 132.90544684723898,
+    "z": 0,
+    "height": 455.44427517163604,
+    "width": 630.4904734582434,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "pieChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Table1"
+                    }
+                  },
+                  "Property": "What is your current skill level in Power BI?"
+                }
+              },
+              "queryRef": "Table1.What is your current skill level in Power BI?",
+              "nativeQueryRef": "What is your current skill level in Power BI?",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": []
+        }
+      },
+      "sortDefinition": {
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
